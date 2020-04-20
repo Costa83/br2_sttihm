@@ -1,0 +1,2 @@
+source "$BR2_EXTERNAL_STT_PATH/package/gattlib/Config.in"
+source "$BR2_EXTERNAL_STT_PATH/package/stt-ihm/Config.in"

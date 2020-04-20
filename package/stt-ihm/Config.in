@@ -1,0 +1,18 @@
+config BR2_PACKAGE_STT_IHM
+	bool "IHM: gateway"
+	depends on BR2_USE_MMU
+	select BR2_PACKAGE_JANSSON
+	select BR2_PACKAGE_GATTLIB
+	help
+		Smile Trip Tour Bycicle Dashboard
+
+if BR2_PACKAGE_STT_IHM
+
+config BR2_PACKAGE_STT_IHM_WEB
+	bool "web interface"
+
+config BR2_PACKAGE_STT_IHM_DB
+	bool "db consumer"
+	select BR2_PACKAGE_MONGOC
+
+endif

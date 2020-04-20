@@ -1,0 +1,8 @@
+FAKE=y
+DEBUG=n
+WEBSOCKET_DIR="/var/run/ouistiti"
+WEBIHM1=n
+WEBIHM2=y
+prefix=/usr
+sysconfdir=/etc/stt
+datadir=/srv/www/
