@@ -5,9 +5,10 @@ Buildroot external for a bicycle dashboard
  1) download Buildroot in /opt
  2) start
 ``` shell
- $ export BR2_EXTERNALE=$PWD
+ $ export BR2_EXTERNAL=$PWD
  $ make O=$PWD/output raspberrypi3_defconfig
  $ cd output
+ $ make menuconfig
  $ make
 ```
 
